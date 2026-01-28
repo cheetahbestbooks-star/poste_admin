@@ -1,246 +1,646 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="fr">
 <head>
-  <meta charset="utf-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1" />
-  <title>Candidature – Employée de commerce (80%) | Sonia Catic</title>
-  <meta name="description" content="Candidature Employée de commerce (80%) – SAV, suivi partenaires, administratif – 100% télétravail." />
-
-  <style>
-    :root{
-      --bg:#f6f7fb;
-      --card:#ffffff;
-      --text:#0f172a;
-      --muted:#475569;
-      --line:rgba(15,23,42,.10);
-      --accent:#e31b2e;
-      --soft:rgba(227,27,46,.10);
-      --shadow: 0 10px 30px rgba(15,23,42,.08);
-      --radius: 20px;
-    }
-    *{box-sizing:border-box}
-    body{
-      margin:0;
-      font-family: ui-sans-serif, system-ui, -apple-system, Segoe UI, Roboto, Arial;
-      color:var(--text);
-      background:
-        radial-gradient(900px 450px at 10% 0%, rgba(227,27,46,.08), transparent 55%),
-        radial-gradient(900px 450px at 90% 0%, rgba(15,23,42,.06), transparent 55%),
-        var(--bg);
-      line-height:1.55;
-    }
-    .wrap{max-width:980px; margin:0 auto; padding:34px 18px 64px}
-    .top{
-      padding:26px;
-      border:1px solid var(--line);
-      border-radius:var(--radius);
-      background:var(--card);
-      box-shadow:var(--shadow);
-    }
-    .badge{
-      display:inline-flex; align-items:center; gap:10px;
-      padding:8px 12px;
-      border-radius:999px;
-      border:1px solid var(--line);
-      background:rgba(255,255,255,.7);
-      font-size:13px;
-      color:var(--muted);
-    }
-    .dot{
-      width:9px; height:9px; border-radius:50%;
-      background:var(--accent);
-      box-shadow:0 0 0 5px var(--soft);
-      flex:0 0 auto;
-    }
-    h1{margin:12px 0 6px; font-size:34px; letter-spacing:-.02em}
-    .role{margin:0; color:var(--muted); font-weight:600}
-    .sub{
-      margin:12px 0 0;
-      color:var(--muted);
-      max-width:82ch;
-      font-size:15.5px;
-    }
-    .cta{display:flex; gap:10px; flex-wrap:wrap; margin-top:16px}
-    .btn{
-      display:inline-flex; align-items:center; justify-content:center; gap:10px;
-      padding:11px 14px;
-      border-radius:14px;
-      border:1px solid var(--line);
-      background:#fff;
-      color:var(--text);
-      text-decoration:none;
-      font-weight:700;
-    }
-    .btn.primary{
-      background:linear-gradient(135deg, var(--accent), #ff4b5a);
-      color:#fff;
-      border-color:rgba(255,255,255,.2);
-    }
-    .quick{
-      display:flex; flex-wrap:wrap; gap:10px;
-      margin-top:16px;
-      padding-top:14px;
-      border-top:1px dashed var(--line);
-      color:var(--muted);
-      font-size:13.5px;
-    }
-    .quick b{color:var(--text)}
-    .grid{
-      margin-top:16px;
-      display:grid;
-      grid-template-columns:repeat(12, 1fr);
-      gap:14px;
-    }
-    .card{
-      grid-column: span 6;
-      padding:18px;
-      border-radius:var(--radius);
-      border:1px solid var(--line);
-      background:var(--card);
-      box-shadow: 0 8px 20px rgba(15,23,42,.06);
-    }
-    .full{grid-column: span 12}
-    h2{margin:0 0 10px; font-size:16px}
-    p{margin:0; color:var(--muted)}
-    ul{margin:10px 0 0; padding:0; list-style:none}
-    li{display:flex; gap:10px; margin:10px 0}
-    .check{
-      width:22px; height:22px; border-radius:8px;
-      display:inline-flex; align-items:center; justify-content:center;
-      background:var(--soft);
-      border:1px solid rgba(227,27,46,.18);
-      flex:0 0 auto;
-      color:var(--accent);
-      font-weight:900;
-    }
-    .pills{display:flex; gap:10px; flex-wrap:wrap; margin-top:10px}
-    .pill{
-      font-size:13px;
-      padding:7px 10px;
-      border-radius:999px;
-      border:1px solid var(--line);
-      background:rgba(15,23,42,.03);
-      color:var(--text);
-      font-weight:600;
-    }
-    .callout{
-      margin-top:10px;
-      padding:12px 12px;
-      border-radius:14px;
-      border:1px solid rgba(227,27,46,.18);
-      background:rgba(227,27,46,.06);
-      color:var(--muted);
-      font-size:13.5px;
-    }
-    .footer{
-      margin-top:16px;
-      font-size:13px;
-      color:var(--muted);
-    }
-    @media (max-width:820px){
-      .card{grid-column: span 12}
-      h1{font-size:28px}
-    }
-  </style>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sonia Catic | Candidature RealDeals.ch</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700;800;900&display=swap" rel="stylesheet">
+    <style>
+        :root {
+            --red: #E53935;
+            --red-dark: #C62828;
+            --orange: #FF6F00;
+            --yellow: #FFB300;
+            --green: #43A047;
+            --dark: #1A1A2E;
+            --white: #FFFFFF;
+            --gray: #F5F5F5;
+            --text: #333;
+        }
+        
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        
+        body {
+            font-family: 'Poppins', sans-serif;
+            background: var(--gray);
+            color: var(--text);
+            line-height: 1.5;
+        }
+        
+        /* HERO */
+        .hero {
+            background: linear-gradient(135deg, var(--red) 0%, var(--red-dark) 100%);
+            color: white;
+            padding: 40px 20px;
+            text-align: center;
+            position: relative;
+            overflow: hidden;
+        }
+        
+        .hero::before {
+            content: '';
+            position: absolute;
+            top: -50%;
+            right: -50%;
+            width: 100%;
+            height: 200%;
+            background: radial-gradient(circle, rgba(255,255,255,0.1) 0%, transparent 70%);
+        }
+        
+        .deal-badge {
+            display: inline-block;
+            background: var(--yellow);
+            color: var(--dark);
+            padding: 6px 16px;
+            border-radius: 30px;
+            font-weight: 800;
+            font-size: 0.75rem;
+            text-transform: uppercase;
+            letter-spacing: 1px;
+            margin-bottom: 16px;
+            animation: pulse 2s infinite;
+        }
+        
+        @keyframes pulse {
+            0%, 100% { transform: scale(1); }
+            50% { transform: scale(1.05); }
+        }
+        
+        .hero h1 {
+            font-size: 2.2rem;
+            font-weight: 900;
+            margin-bottom: 8px;
+            text-transform: uppercase;
+            letter-spacing: -1px;
+        }
+        
+        .hero .subtitle {
+            font-size: 1.1rem;
+            opacity: 0.95;
+            font-weight: 600;
+        }
+        
+        .hero .role {
+            background: rgba(255,255,255,0.2);
+            display: inline-block;
+            padding: 8px 20px;
+            border-radius: 8px;
+            margin-top: 16px;
+            font-weight: 700;
+            backdrop-filter: blur(10px);
+        }
+        
+        /* AVATAR + INTRO */
+        .intro {
+            display: flex;
+            align-items: center;
+            gap: 20px;
+            padding: 30px 20px;
+            max-width: 800px;
+            margin: 0 auto;
+            background: white;
+            margin-top: -20px;
+            border-radius: 16px;
+            box-shadow: 0 10px 40px rgba(0,0,0,0.1);
+            position: relative;
+            z-index: 10;
+        }
+        
+        .avatar {
+            width: 100px;
+            height: 100px;
+            border-radius: 50%;
+            object-fit: cover;
+            border: 4px solid var(--red);
+            flex-shrink: 0;
+        }
+        
+        .intro-text h2 {
+            font-size: 1.4rem;
+            color: var(--dark);
+            margin-bottom: 4px;
+        }
+        
+        .intro-text p {
+            color: #666;
+            font-size: 0.9rem;
+        }
+        
+        .intro-tags {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 6px;
+            margin-top: 10px;
+        }
+        
+        .intro-tag {
+            background: var(--gray);
+            padding: 4px 10px;
+            border-radius: 20px;
+            font-size: 0.7rem;
+            font-weight: 600;
+            color: var(--dark);
+        }
+        
+        .intro-tag.highlight {
+            background: var(--green);
+            color: white;
+        }
+        
+        /* SECTIONS */
+        .section {
+            max-width: 800px;
+            margin: 20px auto;
+            padding: 0 20px;
+        }
+        
+        .section-title {
+            display: flex;
+            align-items: center;
+            gap: 10px;
+            font-size: 1.1rem;
+            font-weight: 800;
+            color: var(--dark);
+            margin-bottom: 16px;
+            text-transform: uppercase;
+        }
+        
+        .section-title .icon {
+            width: 36px;
+            height: 36px;
+            background: var(--red);
+            border-radius: 8px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-size: 1.1rem;
+        }
+        
+        /* MATCH CARDS */
+        .match-grid {
+            display: grid;
+            grid-template-columns: repeat(2, 1fr);
+            gap: 12px;
+        }
+        
+        .match-card {
+            background: white;
+            border-radius: 12px;
+            padding: 16px;
+            box-shadow: 0 4px 15px rgba(0,0,0,0.05);
+            border-left: 4px solid var(--green);
+            transition: transform 0.2s;
+        }
+        
+        .match-card:hover {
+            transform: translateY(-3px);
+        }
+        
+        .match-card .need {
+            font-size: 0.7rem;
+            color: #999;
+            text-transform: uppercase;
+            letter-spacing: 0.5px;
+            margin-bottom: 4px;
+        }
+        
+        .match-card .skill {
+            font-weight: 700;
+            color: var(--dark);
+            font-size: 0.85rem;
+            margin-bottom: 6px;
+        }
+        
+        .match-card .proof {
+            font-size: 0.75rem;
+            color: #666;
+            line-height: 1.4;
+        }
+        
+        .match-card .check {
+            color: var(--green);
+            font-weight: 700;
+        }
+        
+        /* EXPERIENCE TIMELINE */
+        .exp-list {
+            display: flex;
+            flex-direction: column;
+            gap: 12px;
+        }
+        
+        .exp-item {
+            background: white;
+            border-radius: 12px;
+            padding: 16px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            box-shadow: 0 4px 15px rgba(0,0,0,0.05);
+        }
+        
+        .exp-info h3 {
+            font-size: 0.9rem;
+            font-weight: 700;
+            color: var(--dark);
+        }
+        
+        .exp-info p {
+            font-size: 0.75rem;
+            color: #666;
+        }
+        
+        .exp-date {
+            background: var(--gray);
+            padding: 6px 12px;
+            border-radius: 20px;
+            font-size: 0.7rem;
+            font-weight: 700;
+            color: var(--dark);
+        }
+        
+        /* BONUS SECTION */
+        .bonus-box {
+            background: linear-gradient(135deg, var(--orange) 0%, var(--yellow) 100%);
+            border-radius: 16px;
+            padding: 24px;
+            color: var(--dark);
+            text-align: center;
+        }
+        
+        .bonus-box h3 {
+            font-size: 1.2rem;
+            font-weight: 800;
+            margin-bottom: 12px;
+        }
+        
+        .bonus-grid {
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+            gap: 12px;
+            margin-top: 16px;
+        }
+        
+        .bonus-item {
+            background: rgba(255,255,255,0.9);
+            border-radius: 10px;
+            padding: 12px 8px;
+            font-size: 0.75rem;
+            font-weight: 600;
+        }
+        
+        .bonus-item .emoji {
+            font-size: 1.4rem;
+            margin-bottom: 4px;
+        }
+        
+        /* LANGUES */
+        .lang-grid {
+            display: flex;
+            gap: 10px;
+            flex-wrap: wrap;
+        }
+        
+        .lang-item {
+            background: white;
+            border-radius: 10px;
+            padding: 12px 16px;
+            display: flex;
+            align-items: center;
+            gap: 10px;
+            box-shadow: 0 4px 15px rgba(0,0,0,0.05);
+        }
+        
+        .lang-flag {
+            height: 20px;
+            width: auto;
+        }
+        
+        .lang-info .name {
+            font-weight: 700;
+            font-size: 0.85rem;
+        }
+        
+        .lang-info .level {
+            font-size: 0.7rem;
+            color: #666;
+        }
+        
+        /* CTA */
+        .cta {
+            background: var(--dark);
+            padding: 40px 20px;
+            text-align: center;
+            color: white;
+            margin-top: 30px;
+        }
+        
+        .cta h2 {
+            font-size: 1.5rem;
+            font-weight: 800;
+            margin-bottom: 8px;
+        }
+        
+        .cta p {
+            opacity: 0.8;
+            margin-bottom: 20px;
+            font-size: 0.9rem;
+        }
+        
+        .cta-buttons {
+            display: flex;
+            gap: 12px;
+            justify-content: center;
+            flex-wrap: wrap;
+        }
+        
+        .cta-btn {
+            display: inline-flex;
+            align-items: center;
+            gap: 8px;
+            padding: 14px 28px;
+            border-radius: 30px;
+            font-weight: 700;
+            font-size: 0.9rem;
+            text-decoration: none;
+            transition: transform 0.2s, box-shadow 0.2s;
+        }
+        
+        .cta-btn:hover {
+            transform: translateY(-2px);
+            box-shadow: 0 8px 25px rgba(0,0,0,0.3);
+        }
+        
+        .cta-btn.primary {
+            background: var(--red);
+            color: white;
+        }
+        
+        .cta-btn.secondary {
+            background: white;
+            color: var(--dark);
+        }
+        
+        .cta-info {
+            margin-top: 24px;
+            display: flex;
+            justify-content: center;
+            gap: 30px;
+            font-size: 0.8rem;
+            opacity: 0.7;
+        }
+        
+        /* FOOTER */
+        .footer {
+            text-align: center;
+            padding: 20px;
+            font-size: 0.75rem;
+            color: #999;
+        }
+        
+        /* RESPONSIVE */
+        @media (max-width: 600px) {
+            .hero h1 {
+                font-size: 1.6rem;
+            }
+            
+            .intro {
+                flex-direction: column;
+                text-align: center;
+                margin-left: 16px;
+                margin-right: 16px;
+            }
+            
+            .intro-tags {
+                justify-content: center;
+            }
+            
+            .match-grid {
+                grid-template-columns: 1fr;
+            }
+            
+            .bonus-grid {
+                grid-template-columns: repeat(2, 1fr);
+            }
+            
+            .exp-item {
+                flex-direction: column;
+                gap: 8px;
+                text-align: center;
+            }
+            
+            .cta-info {
+                flex-direction: column;
+                gap: 8px;
+            }
+        }
+    </style>
 </head>
-
 <body>
-  <div class="wrap">
-    <section class="top">
-      <div class="badge"><span class="dot"></span> Candidature – Employée de commerce (80%) • 100% télétravail</div>
 
-      <h1>Sonia Catic</h1>
-      <p class="role">SAV • Suivi partenaires • Administration commerciale</p>
-
-      <p class="sub">
-        J’aime les environnements e-commerce qui vont vite, tant que le <b>SAV</b> reste irréprochable
-        et que les dossiers sont tenus avec rigueur.
-        Mon objectif: sécuriser le quotidien (clients, partenaires, back-office) avec une organisation simple,
-        efficace et fiable en télétravail.
-      </p>
-
-      <div class="cta">
-        <a class="btn primary" href="./cv.pdf" target="_blank" rel="noopener">📄 Mon CV (PDF)</a>
-        <a class="btn" href="mailto:sonia.catic@hotmail.com?subject=Contact%20-%20Candidature%20Employ%C3%A9e%20de%20commerce%20(80%25)%20-%20Sonia%20Catic">✉️ Me contacter</a>
-      </div>
-
-      <div class="quick">
-        <span>📍 <b>Le Bélieu</b> (frontalière canton de Neuchâtel)</span>
-        <span>📞 <b>078 777 79 78</b></span>
-        <span>✉️ <b>sonia.catic@hotmail.com</b></span>
-        <span>✅ <b>Disponible de suite</b></span>
-        <span>🧾 <b>Permis G</b></span>
-      </div>
+    <!-- HERO -->
+    <header class="hero">
+        <div class="deal-badge">🔥 Candidature Express</div>
+        <h1>Sonia Catic</h1>
+        <p class="subtitle">Prête à rejoindre l'aventure RealDeals.ch</p>
+        <div class="role">📋 Employée de Commerce — 80%</div>
+    </header>
+    
+    <!-- INTRO -->
+    <div class="intro">
+        <img src="https://cheetahbestbooks-star.github.io/candidature-secret-strategy-007/avatar_ayke.png" alt="Sonia Catic" class="avatar">
+        <div class="intro-text">
+            <h2>Hello RealDeals ! 👋</h2>
+            <p>+10 ans d'expérience en Suisse, admin & digital. Autonome, polyvalente, et déjà en mode télétravail depuis 2 ans.</p>
+            <div class="intro-tags">
+                <span class="intro-tag">📧 sonia.catic@hotmail.com</span>
+                <span class="intro-tag">📞 078 777 79 78</span>
+                <span class="intro-tag highlight">✓ Permis G</span>
+                <span class="intro-tag highlight">✓ 100% Remote Ready</span>
+                <span class="intro-tag">Frontalière FR/CH</span>
+                <span class="intro-tag">Dispo immédiate</span>
+            </div>
+        </div>
+    </div>
+    
+    <!-- MATCH SECTION -->
+    <section class="section">
+        <h2 class="section-title">
+            <span class="icon">🎯</span>
+            Match Parfait
+        </h2>
+        <div class="match-grid">
+            <div class="match-card">
+                <div class="need">Vous cherchez</div>
+                <div class="skill">Gestion SAV</div>
+                <div class="proof"><span class="check">✓</span> 2 ans coordinatrice chez Buzz Beauty — plateforme e-commerce beauté & bien-être</div>
+            </div>
+            <div class="match-card">
+                <div class="need">Vous cherchez</div>
+                <div class="skill">Suivi admin & partenaires</div>
+                <div class="proof"><span class="check">✓</span> 6 ans en Suisse : Sandoz, Plastrub, Juracime — relation fournisseurs, suivi dossiers</div>
+            </div>
+            <div class="match-card">
+                <div class="need">Vous cherchez</div>
+                <div class="skill">Réseaux sociaux & Blog</div>
+                <div class="proof"><span class="check">✓</span> Content creator freelance — Instagram, TikTok, stratégie digitale</div>
+            </div>
+            <div class="match-card">
+                <div class="need">Vous cherchez</div>
+                <div class="skill">Polyvalence & Autonomie</div>
+                <div class="proof"><span class="check">✓</span> Freelance depuis 2023 — gestion multi-clients, deadlines, priorités</div>
+            </div>
+            <div class="match-card">
+                <div class="need">Vous cherchez</div>
+                <div class="skill">Outils digitaux</div>
+                <div class="proof"><span class="check">✓</span> Excel, Word + Airtable, Make, CRM, outils IA — bien au-delà des basics</div>
+            </div>
+            <div class="match-card">
+                <div class="need">Vous cherchez</div>
+                <div class="skill">Français impeccable</div>
+                <div class="proof"><span class="check">✓</span> Langue maternelle + Master Communication & Digital Marketing (EFAP Paris)</div>
+            </div>
+        </div>
     </section>
-
-    <section class="grid">
-      <div class="card">
-        <h2>Ce que je prends en main (immédiatement)</h2>
-        <ul>
-          <li><span class="check">✓</span><span><b>SAV</b> : demandes clients, réponses claires, suivi jusqu’à résolution.</span></li>
-          <li><span class="check">✓</span><span><b>Partenaires</b> : suivi administratif, relances, documents, coordination.</span></li>
-          <li><span class="check">✓</span><span><b>Dossiers</b> : classement, mise à jour, rigueur documentaire.</span></li>
-        </ul>
-        <div class="callout">
-          Je préfère être jugée sur l’essentiel: fiabilité, clarté, réactivité et régularité.
+    
+    <!-- EXPERIENCE -->
+    <section class="section">
+        <h2 class="section-title">
+            <span class="icon">💼</span>
+            Parcours Express
+        </h2>
+        <div class="exp-list">
+            <div class="exp-item">
+                <div class="exp-info">
+                    <h3>Freelance — Campaign & Automation</h3>
+                    <p>Gestion clients, content, automatisation workflows</p>
+                </div>
+                <span class="exp-date">2023 → Présent</span>
+            </div>
+            <div class="exp-item">
+                <div class="exp-info">
+                    <h3>Buzz Beauty — Coordinatrice Digital & Ventes</h3>
+                    <p>E-commerce beauté/bien-être, SAV, partenariats</p>
+                </div>
+                <span class="exp-date">2019 → 2021</span>
+            </div>
+            <div class="exp-item">
+                <div class="exp-info">
+                    <h3>Plastrub SA — Sales Coordinator</h3>
+                    <p>Administration commerciale, suivi clients B2B</p>
+                </div>
+                <span class="exp-date">2017 → 2019</span>
+            </div>
+            <div class="exp-item">
+                <div class="exp-info">
+                    <h3>Sandoz Fils SA — Sales & Operations</h3>
+                    <p>Gestion administrative, coordination équipes</p>
+                </div>
+                <span class="exp-date">2015 → 2017</span>
+            </div>
         </div>
-      </div>
-
-      <div class="card">
-        <h2>Esprit start-up (avec une tenue de route)</h2>
-        <p>
-          Polyvalente sur les tâches du quotidien (courrier, téléphone, support commercial/direction,
-          service client, contenus simples si besoin), je garde le cap avec des priorités nettes.
-        </p>
-        <div class="pills">
-          <span class="pill">Organisation</span>
-          <span class="pill">Autonomie télétravail</span>
-          <span class="pill">Priorités</span>
-          <span class="pill">Communication claire</span>
-        </div>
-      </div>
-
-      <div class="card full">
-        <h2>Buzz Beauty (lien naturel avec Realdeals)</h2>
-        <p>
-          Plateforme B2C beauté & bien-être: gestion du SAV, suivi administratif et démarchage partenaires,
-          classement et mise à jour des dossiers, et tâches administratives variées
-          (secrétariat, comptabilité de base, service client, blog, réseaux sociaux).
-        </p>
-        <div class="callout">
-          Je n’insiste pas sur des titres: ce que j’apporte surtout, c’est une capacité à exécuter, structurer et tenir les sujets.
-        </div>
-      </div>
-
-      <div class="card">
-        <h2>Outils</h2>
-        <div class="pills">
-          <span class="pill">Word</span>
-          <span class="pill">Excel</span>
-          <span class="pill">Notion</span>
-          <span class="pill">Airtable</span>
-          <span class="pill">Make</span>
-        </div>
-        <p style="margin-top:10px">
-          Back-office e-commerce: je travaille facilement dans des outils de gestion (commandes, clients, demandes)
-          et je monte vite en compétence.
-        </p>
-      </div>
-
-      <div class="card">
-        <h2>Automatisations légères (sans complexifier)</h2>
-        <ul>
-          <li><span class="check">✓</span><span>Templates SAV cohérents + personnalisation rapide.</span></li>
-          <li><span class="check">✓</span><span>Tableau de suivi simple: statuts, délais, prochaine action.</span></li>
-          <li><span class="check">✓</span><span>Relances partenaires “zéro oubli” (checklists/rappels).</span></li>
-        </ul>
-      </div>
     </section>
+    
+    <!-- BONUS -->
+    <section class="section">
+        <div class="bonus-box">
+            <h3>🚀 Bonus : Ce que j'apporte en plus</h3>
+            <p>Pas juste une employée de commerce — une vraie ressource digitale</p>
+            <div class="bonus-grid">
+                <div class="bonus-item">
+                    <div class="emoji">🤖</div>
+                    <div>Automatisation<br>Make & Airtable</div>
+                </div>
+                <div class="bonus-item">
+                    <div class="emoji">📱</div>
+                    <div>Social Media<br>Instagram, TikTok</div>
+                </div>
+                <div class="bonus-item">
+                    <div class="emoji">✍️</div>
+                    <div>Copywriting<br>Blog & Newsletters</div>
+                </div>
+                <div class="bonus-item">
+                    <div class="emoji">📊</div>
+                    <div>Analytics<br>GA4, Reporting</div>
+                </div>
+                <div class="bonus-item">
+                    <div class="emoji">🎨</div>
+                    <div>Création visuelle<br>Canva, CapCut</div>
+                </div>
+                <div class="bonus-item">
+                    <div class="emoji">⚡</div>
+                    <div>IA & Outils<br>ChatGPT, Claude</div>
+                </div>
+            </div>
+        </div>
+    </section>
+    
+    <!-- LANGUES -->
+    <section class="section">
+        <h2 class="section-title">
+            <span class="icon">🌍</span>
+            Langues
+        </h2>
+        <div class="lang-grid">
+            <div class="lang-item">
+                <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/c/c3/Flag_of_France.svg/23px-Flag_of_France.svg.png" class="lang-flag" alt="FR">
+                <div class="lang-info">
+                    <div class="name">Français</div>
+                    <div class="level">Langue maternelle</div>
+                </div>
+            </div>
+            <div class="lang-item">
+                <img src="https://upload.wikimedia.org/wikipedia/en/thumb/a/ae/Flag_of_the_United_Kingdom.svg/23px-Flag_of_the_United_Kingdom.svg.png" class="lang-flag" alt="GB">
+                <div class="lang-info">
+                    <div class="name">Anglais</div>
+                    <div class="level">C1 — Courant</div>
+                </div>
+            </div>
+            <div class="lang-item">
+                <img src="https://upload.wikimedia.org/wikipedia/en/thumb/b/ba/Flag_of_Germany.svg/23px-Flag_of_Germany.svg.png" class="lang-flag" alt="DE">
+                <div class="lang-info">
+                    <div class="name">Allemand</div>
+                    <div class="level">B1 — Intermédiaire</div>
+                </div>
+            </div>
+            <div class="lang-item">
+                <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/9/9a/Flag_of_Spain.svg/23px-Flag_of_Spain.svg.png" class="lang-flag" alt="ES">
+                <div class="lang-info">
+                    <div class="name">Espagnol</div>
+                    <div class="level">B2</div>
+                </div>
+            </div>
+        </div>
+    </section>
+    
+    <!-- CTA -->
+    <section class="cta">
+        <h2>Prête à dealer ? 🤝</h2>
+        <p>Disponible pour un call ou un échange rapide</p>
+        <div class="cta-buttons">
+            <a href="mailto:sonia.catic@hotmail.com?subject=Candidature Sonia Catic — Employée de Commerce 80%" class="cta-btn primary">
+                📩 sonia.catic@hotmail.com
+            </a>
+            <a href="tel:+41787777978" class="cta-btn secondary">
+                📞 078 777 79 78
+            </a>
+        </div>
+        <div class="cta-info">
+            <span>📍 Frontalière FR/CH</span>
+            <span>📅 Disponible immédiatement</span>
+            <span>💻 100% Télétravail OK</span>
+        </div>
+    </section>
+    
+    <!-- FOOTER -->
+    <footer class="footer">
+        © 2025 Sonia Catic — Candidature RealDeals.ch
+    </footer>
 
-    <p class="footer">
-      Page volontairement simple pour montrer l’adéquation immédiate au poste et une autonomie réelle en télétravail.
-      Références disponibles sur demande.
-    </p>
-  </div>
 </body>
 </html>
