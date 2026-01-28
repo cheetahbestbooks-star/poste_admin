@@ -8,8 +8,9 @@
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700;800;900&display=swap" rel="stylesheet">
     <style>
         :root {
-            --red: #E53935;
-            --red-dark: #C62828;
+            --pink: #E91E8C;
+            --pink-dark: #C2185B;
+            --pink-light: #FCE4EC;
             --orange: #FF6F00;
             --yellow: #FFB300;
             --green: #43A047;
@@ -34,7 +35,7 @@
         
         /* HERO */
         .hero {
-            background: linear-gradient(135deg, var(--red) 0%, var(--red-dark) 100%);
+            background: linear-gradient(135deg, var(--pink) 0%, var(--pink-dark) 100%);
             color: white;
             padding: 40px 20px;
             text-align: center;
@@ -117,9 +118,9 @@
             border-radius: 50%;
             object-fit: cover;
             object-position: center top;
-            border: 4px solid var(--red);
+            border: 4px solid var(--pink);
             flex-shrink: 0;
-            background: linear-gradient(135deg, var(--red) 0%, var(--red-dark) 100%);
+            background: var(--pink-light);
         }
         
         .intro-text h2 {
@@ -175,7 +176,7 @@
         .section-title .icon {
             width: 36px;
             height: 36px;
-            background: var(--red);
+            background: var(--pink);
             border-radius: 8px;
             display: flex;
             align-items: center;
@@ -343,9 +344,9 @@
         }
         
         .cta h2 {
-            font-size: 1.5rem;
-            font-weight: 800;
-            margin-bottom: 8px;
+            font-size: 1.3rem;
+            font-weight: 700;
+            margin-bottom: 20px;
         }
         
         .cta p {
@@ -379,7 +380,7 @@
         }
         
         .cta-btn.primary {
-            background: var(--red);
+            background: var(--pink);
             color: white;
         }
         
@@ -622,8 +623,7 @@
     
     <!-- CTA -->
     <section class="cta">
-        <h2>Prête à dealer ? 🤝</h2>
-        <p>Disponible pour un call ou un échange rapide</p>
+        <h2>🤝 Disponible pour un call ou un échange rapide</h2>
         <div class="cta-buttons">
             <a href="mailto:sonia.catic@hotmail.com?subject=Candidature Sonia Catic — Employée de Commerce 80%" class="cta-btn primary">
                 📩 sonia.catic@hotmail.com
